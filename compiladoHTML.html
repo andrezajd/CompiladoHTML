@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro exercício</title>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <hr>
+    <p>Esse é o meu primeiro documento HTML. Estou muito feliz! </p>
+    <p>Este é um momento unico! Estou criando um site! </p>
+</body>
+
+
+
+
+
+
+
+
+    <h1>Parágrafos e quebras de linha</h1>
+    <hr>
+    <p>Você pode escrever um parágrafo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt; </p> <!--LESS THAN / GREATER THAN-->
+    <p>Se precisar quebrar o texto em algum lugar específico <br> como esse, você pode usar a tag &lt;br&gt; </p>
+    <P>Vamos adicionar alguns simbolos especiai:
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        &Delta;
+        &uarr;
+        <p>Vamos adicionar alguns emoji: &#x1F917; &#x2764; </p> <!--emojipedia-->
+
+
+
+
+
+        <h1>Testando carga de imagens</h1>
+        <p>Abaixo você vai ver uma imagem que está na mesma pasta</p>
+        <img src="logo html 200.png" alt="Logo html 5">
+        <p>Podemos também carregar imagens que estão em sub-pastas</p>
+        <img src="imagens/logo css 200.png" alt="Logo css3">
+        <p>tambem podemos carregar imagens externas</p>
+
+
+
+
+
+        <h1>Entendendo Portugal</h1>
+        <h2>Introdução</h2>
+        <h3>Justificação da Temática</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia doloremque labore. Temporibus vero iste facilis alias recusandae maxime veniam repellat odit laboriosam, debitis suscipit nemo, illum pariatur praesentium asperiores.</p>
+        <h3>Caráter excepcional</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, qui voluptatum? Iste incidunt libero earum expedita labore quidem, eos, voluptatum temporibus adipisci amet accusamus non dicta est! Quas, magni blanditiis.</p>
+        <h3>Perguntas de Partida</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quasi fugit nostrum odio labore voluptas voluptatibus, corporis nesciunt consequatur laboriosam doloribus quas facilis quaerat! Obcaecati maxime repellendus placeat sequi quidem!</p>
+        <h3>Metodologia de Investigação</h3>
+        <h4>Etapas de Investigação</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit tenetur iste asperiores voluptatibus, consequatur adipisci architecto aut aliquam sequi magnam minus quidem consectetur dolor at beatae, cupiditate culpa quasi velit.</p>
+        <h4>Instrumentos de Análize</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus obcaecati accusantium nostrum, assumenda iste eaque sint nihil quos soluta quibusdam provident tempore esse! Tempore facere, nesciunt libero ullam nemo natus.</p>
+        <h2>Ordenamento do território em Portugal</h2>
+        <h3>Os Instrumentos de Gestão</h3>
+        <h4>Os Instrumentos de Planeamento</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni mollitia voluptates ratione blanditiis nisi temporibus, delectus deserunt eos expedita rem quos non dicta ut vero sunt illum, nostrum doloribus laborum.</p>
+        <h4>Os regimes Territoriais</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere atque aliquid reprehenderit cupiditate itaque placeat saepe exercitationem unde ad voluptas quidem ullam veritatis cumque sint assumenda voluptate eveniet, asperiores quisquam!</p>
+
+
+
+
+
+
+        Exemplo de Semântica
+        <style>
+            body {
+                background-color: pink;
+            }
+        </style>
+            
+    
+    </head>
+    <body>
+        <p>Eu moro na <address>Avenida Mariano Latorre, 345- Itatiba-SP</address></p>
+
+
+
+
+
+
+
+        formatação de Textos
+    <style>
+      mark {
+        background-color: blue;
+      }
+    </style>
+
+<!---Este style é para adicicionar a cor do mark em todos de uma vez!-->
+  
+
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaques</h2>
+      <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica). </p>
+      <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica) </p>
+      <h2>Itálico/ Ênfase</h2>
+      <p>Nesta frase, <i>temos um usando </i>a tag (não semântica)</p>
+        <!-- ctrl+shit+p para envelopar-->
+      <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+      <h2>texto marcado</h2>
+      <p>Podemos criar um <mark style="background-color: brown;">texto marcado</mark> usando a tag MARK</p>
+
+      <!---Este mark é para adicionar a um específico!-->
+
+      <p>E no outro paragrafo temos <mark>outro texto marcado</mark> no final</p>
+
+      <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste parágrafo</p>
+      <!--big não funciona mais-->
+
+
+
+
+
+
+
+      <h1>Outras formatações</h1>
+      <h2>Código-Fonte / Pré- Formatação</h2>
+      <p>O comando <code>document.getElementById</code>('teste') é escrito em linguagem JavaScript.</p>
+     
+      <pre>
+          <code>
+      num = int(input('Digite um número'))
+      if num % 2 == 0:
+          print(f'O número {num} é PAR')
+          else:
+              print(f'O número {num} é ÍMPAR')
+      print('Fim do Programa')
+              </code>
+          </pre>
+       
+      <!--shift + Tab para selecionar e levar todo o código para a esquerda-->
+      <!--e apena a tecla Tab para adicionar tabulação = ir para a direita-->
+  
+      <h2>Citações</h2>
+      <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+      <!--aspas com a letra q dá sentido as coisas!-->
+  
+      <h2>Citações Completas</h2>
+      <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+      <blockquote>
+          A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+      </blockquote>
+  
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascadin Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <!--abbr-->
+        
+        <h2>Texto invertido</h2>
+        <p><bdo dir="rtl">Estou aprendendendo a criar coisas em HTML</bdo></p>
+        
+
+
+        
+
+    </P>
+</body>
+</html>
